@@ -1,0 +1,3 @@
+# Playwright specific files
+playwright-report/
+trace.zip
