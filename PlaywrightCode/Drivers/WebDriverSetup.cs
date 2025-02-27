@@ -1,0 +1,1 @@
+using System.Threading.Tasks;\nusing NUnit.Framework;\nusing Microsoft.Playwright;\n\nnamespace SwagLabProject.PlaywrightCode.Drivers\n{\n    public class WebDriverSetup\n    {\n        protected IBrowser Browser;\n        protected IPage Page;\n\n        [SetUp]\n        public async
