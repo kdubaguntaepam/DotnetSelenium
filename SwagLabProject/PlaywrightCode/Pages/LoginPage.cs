@@ -1,0 +1,1 @@
+using System.Threading.Tasks;\nusing Microsoft.Playwright;\n\nnamespace SwagLabProject.PlaywrightCode.Pages\n{\n    public class LoginPage\n    {\n        private readonly IPage _page;\n        private readonly string _usernameField = \"#user-name\";\n        private readonly string _passwordField = \"#password\";\n        private
